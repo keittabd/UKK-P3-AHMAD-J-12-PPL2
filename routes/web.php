@@ -18,5 +18,10 @@ Route::get('/', function () {
     return view('layouts.app');
 });
 
+Route::get('/login', function () {
+    return view('halaman_login');
+});
 
-
+Route::get('/register', function () {
+    return view('halaman_register');
+});

@@ -46,10 +46,10 @@
       </a>
       <div class="collapse" id="charts">
         <ul class="nav flex-column sub-menu">
-          <li class="nav-item"> <a class="nav-link" href="/layouts/login">Sign In</a></li>
+          <li class="nav-item"> <a class="nav-link" href="/login">Sign In</a></li>
         </ul>
         <ul class="nav flex-column sub-menu">
-          <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">Sign Up</a></li>
+          <li class="nav-item"> <a class="nav-link" href="/logout">Sign Up</a></li>
         </ul>
       </div>
     </li>

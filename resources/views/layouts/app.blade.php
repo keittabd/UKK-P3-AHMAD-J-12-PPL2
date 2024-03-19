@@ -15,14 +15,15 @@
   <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
   <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
   <link rel="stylesheet" type="text/css" href="js/select.dataTables.min.css">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="login.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
   <link rel="stylesheet" href="css/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="images/gree.png" />
+  <link rel="shortcut icon" href="images/icons8.png" />
   <!-- CSS E-->
-  <link rel="stylesheet" href="style1.css">
-  <link rel="stylesheet" href="login.css">
+  
   <!-- end CSS-->
   <!-- Font -->
   <style>@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');</style>
@@ -30,19 +31,20 @@
 <body>
   <div class="container-scroller">
     <!-- partial:partials/_navbar.html -->
-    @include('component.navbar')
+    @include('layouts.navbar')
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
       <!-- partial:partials/_settings-panel.html -->
-      @include('component.panel')
+      @include('layouts.panel')
       <!-- partial -->
       <!-- partial:partials/_sidebar.html -->
-      @include('component.sidebar')
+      @include('layouts.sidebar')
       <!-- partial -->
-      @include('component.mainpanel')
+      @include('layouts.mainpanel')
       <!-- main-panel ends -->
-     
+      <!-- halaman login -->
     </div>   
+    @yield('content')
     <!-- page-body-wrapper ends -->
   </div>
   <!-- container-scroller -->
