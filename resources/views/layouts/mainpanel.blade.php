@@ -1,27 +1,28 @@
-<div class="main-panel">
-  <div class="content-wrapper">
-    <div class="row">
-      <div class="col-md-12 grid-margin">
-        <div class="row">
-          <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-            <h3 class="font-weight-bold">Welcome Aamir</h3>
-            <h6 class="font-weight-normal mb-0">All systems are running smoothly! You have <span class="text-primary">3 unread alerts!</span></h6>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+  <!-- card -->
+<div class="card">JLLY-WELLCOME</div>
+<!-- table -->
+<div class="card3">
+  <div class="card3__corner"></div>
+  <div class="card3__img">
+    <span class="card3__span">Category</span>
   </div>
-  <!-- content-wrapper ends -->
-  <!-- partial:partials/_footer.html -->
-  <footer class="footer">
-    <div class="d-sm-flex justify-content-center justify-content-sm-between">
-      <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2024. JLLY</span>
-      <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><i class="ti-heart text-danger ml-1"></i></span>
-    </div>
-    <div class="d-sm-flex justify-content-center justify-content-sm-between">
-      <span class="text-muted text-center text-sm-left d-block d-sm-inline-block"></span> 
-    </div>
-  </footer> 
-  <!-- partial -->
+  <div class="card3-int">
+    <p class="card3-int__title">This is the article title</p>
+    <p class="excerpt3">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
+    <button class="card3-int__button">Show</button>
+  </div>
 </div>
+<!-- end table -->
+<div class="card1">JLLY-WELLCOME</div>
+<!-- card end -->
+</body>
+</html>
+

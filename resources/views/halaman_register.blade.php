@@ -30,14 +30,18 @@
 </head>
 <body>
 <div class="container">
-    <form class="form" action="">
+    <form class="form" action="/halaman_register" method="POST">
+      @csrf
         <p class="title">Sign Up</p>
         <input placeholder="Name" class="input" type="text">
+        @error('Name')
+        <div class="invalid-feedback">Please Choose a name</div>
+        @enderror
         <input placeholder="Username" class="username input" type="text">
         <input placeholder="Email" class="email input" type="text">
         <input placeholder="Password" class="password input" type="password">
         <input placeholder="Confirm Password" class="password input" type="password">
-        <button class="btn" type="submit">Login</button>
+        <button class="btn" type="submit" href="/http://127.0.0.1:8000/">Login</button>
         <br>
             <div class="acc-text">
               <span style="color : #0000ff; cursor : pointer;"><a class="nav-link" href="/login">Sign In</a></span>

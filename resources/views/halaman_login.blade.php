@@ -36,7 +36,7 @@
         <input placeholder="Password" class="password input" type="password">
         <button class="btn" type="submit">Login</button>
         <br></br>
-            <div class="acc-text"><text>New here ?<span style="color : #0000ff; cursor : pointer;"><a class="nav-link" href="/register">Create Account</a></span>
+            <div class="acc-text"><text>New here ?<span style="color : #0000ff; cursor : pointer;"><a class="nav-link" href="/halaman_register">Create Account</a></span>
             </text>
         </div>
             <br>

@@ -17,6 +17,8 @@
   <link rel="stylesheet" type="text/css" href="js/select.dataTables.min.css">
   <link rel="stylesheet" href="style1.css">
   <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="css/card-css/card.css">
+  <link rel="stylesheet" href="css/card-css/halaman-utama/kotak.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
   <link rel="stylesheet" href="css/style.css">
@@ -42,6 +44,7 @@
       <!-- partial -->
       @include('layouts.mainpanel')
       <!-- main-panel ends -->
+      @include('layouts.footer')
       <!-- halaman login -->
     </div>   
     @yield('content')

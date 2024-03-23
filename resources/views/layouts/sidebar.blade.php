@@ -49,7 +49,7 @@
           <li class="nav-item"> <a class="nav-link" href="/login">Sign In</a></li>
         </ul>
         <ul class="nav flex-column sub-menu">
-          <li class="nav-item"> <a class="nav-link" href="/logout">Sign Up</a></li>
+          <li class="nav-item"> <a class="nav-link" href="/halaman_register">Sign Up</a></li>
         </ul>
       </div>
     </li>

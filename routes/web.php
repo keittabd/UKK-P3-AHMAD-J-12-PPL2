@@ -1,6 +1,8 @@
 <?php
 
-use app\Http\Controllers\HomeController;
+use App\Http\Controllers\Halaman_loginController;
+use App\Http\Controllers\Halaman_registerController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,14 +16,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.app');
-});
+Route::get('/', [HomeController::class, 'index'] );
 
-Route::get('/login', function () {
-    return view('halaman_login');
-});
+Route::get('/login', [Halaman_loginController::class, 'index'] );
 
-Route::get('/register', function () {
-    return view('halaman_register');
-});
+Route::get('/halaman_register', [Halaman_registerController::class, 'index'] );
+Route::post('/halaman_register', [Halaman_registerController::class, 'store'] );

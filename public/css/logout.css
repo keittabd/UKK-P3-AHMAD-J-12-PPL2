@@ -81,4 +81,26 @@
     box-shadow: none;
     border-radius: -1rem;
   }
+
+  .input {
+    border-bottom: 1px solid#aec3b0;
+    transition: all 400ms;
+  }
+  
+  .input:hover {
+    background-color: #c5ebaa;
+    border: none;
+    border-radius: 0.5rem;
+  }
+
+  .emailinput {
+    border-bottom: 1px solid#aec3b0;
+    transition: all 400ms;
+  }
+  
+  .emailinput:hover {
+    background-color: #c5ebaa;
+    border: none;
+    border-radius: 0.5rem;
+  }
   
