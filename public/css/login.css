@@ -1,0 +1,84 @@
+::selection {
+    background-color: rgb(255, 221, 221);
+  }
+
+  .body {
+    background-color:  #dceded, #edf6f6;
+  }
+
+  .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .form {
+    width: 500rem;
+    height: 61.8rem;
+    background-image: linear-gradient(to bottom, #dceded, #edf6f6);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    position: relative;
+  }
+  
+  .title {
+    color: #516580 ;
+    margin: 3rem 0;
+    font-size: 2rem;
+  }
+  
+  .input {
+    margin: 0.5rem 0;
+    padding: 1rem 0.5rem;
+    width: 20rem;
+    background-color: inherit;
+    color: #323232;
+    border: none;
+    outline: none;
+  }
+  
+  .username {
+    border-bottom: 1px solid#aec3b0;
+    transition: all 400ms;
+  }
+  
+  .username:hover {
+    background-color: #c5ebaa;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  .password {
+    border-bottom: 1px solid#aec3b0;
+    transition: all 400ms;
+  }
+  
+  .password:hover {
+    background-color: #c5ebaa;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  .btn {
+    height: 3rem;
+    width: 20rem;
+    margin-top: 3rem;
+    background-color: #fff65b;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.2rem;
+    transition: all 400ms;
+    box-shadow: 0 0 10px  antiquewhite, 0 0 10px antiquewhite;
+  }
+  
+  .btn:hover {
+    background-color: #c5ebaa;
+    box-shadow: none;
+    border-radius: -1rem;
+  }
+  
