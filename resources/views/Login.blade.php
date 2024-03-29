@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>JLLY-SignIn</title>
+  <title>JLLY-Sign In</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/feather/feather.css">
   <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
@@ -30,13 +30,14 @@
 </head>
 <body>
 <div class="container">
-    <form class="form" action="">
+    <form class="form" action="/Login">
+      @csrf
         <p class="title">Login Form</p>
         <input placeholder="Username" class="username input" type="text">
         <input placeholder="Password" class="password input" type="password">
         <button class="btn" type="submit">Login</button>
         <br></br>
-            <div class="acc-text"><text>New here ?<span style="color : #0000ff; cursor : pointer;"><a class="nav-link" href="/halaman_register">Create Account</a></span>
+            <div class="acc-text"><text>New here ?<span style="color : #0000ff; cursor : pointer;"><a class="nav-link" href="/Register">Create Account</a></span>
             </text>
         </div>
             <br>

@@ -1,7 +1,6 @@
 <?php
 
-use App\Http\Controllers\Halaman_loginController;
-use App\Http\Controllers\Halaman_registerController;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,9 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'index'] );
+Route::get('/', [HomeController::class, 'index'])->middleware('auth');
 
-Route::get('/login', [Halaman_loginController::class, 'index'] );
-
-Route::get('/halaman_register', [Halaman_registerController::class, 'index'] );
-Route::post('/halaman_register', [Halaman_registerController::class, 'store'] );
+Route:: group(['middleware' => 'guest'], function () {
+    Route::get('/Register', [AuthController::class, 'Register'])->name('Register');
+    Route::get('/Register', [AuthController::class, 'RegisterPost'])->name('Register');
+    Route::get('/login', [AuthController::class, 'Login'])->name('Login');
+});

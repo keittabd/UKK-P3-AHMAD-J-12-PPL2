@@ -30,21 +30,24 @@
 </head>
 <body>
 <div class="container">
-    <form class="form" action="/halaman_register" method="POST">
+  @if (session('status'))
+  <div class="alert alert-primary" role="alert">
+        {{ session::get('status') }}
+    </div>
+@endif
+    <form class="form" action="{{ route('Register')}}" method="POST">
       @csrf
         <p class="title">Sign Up</p>
         <input placeholder="Name" class="input" type="text">
-        @error('Name')
         <div class="invalid-feedback">Please Choose a name</div>
-        @enderror
         <input placeholder="Username" class="username input" type="text">
         <input placeholder="Email" class="email input" type="text">
-        <input placeholder="Password" class="password input" type="password">
-        <input placeholder="Confirm Password" class="password input" type="password">
-        <button class="btn" type="submit" href="/http://127.0.0.1:8000/">Login</button>
+        <input placeholder="Password" class="password input" type="password" required>
+        <input placeholder="Confirm Password" class="password input" type="password" required>
+        <button class="btn" type="submit" >Registers</button>
         <br>
             <div class="acc-text">
-              <span style="color : #0000ff; cursor : pointer;"><a class="nav-link" href="/login">Sign In</a></span>
+              <span style="color : #0000ff; cursor : pointer;"><a class="nav-link" href="/Login">Sign In</a></span>
             </div>
         </br>
     </form>
