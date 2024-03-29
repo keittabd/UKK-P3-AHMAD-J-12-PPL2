@@ -46,10 +46,17 @@
       </a>
       <div class="collapse" id="charts">
         <ul class="nav flex-column sub-menu">
+<<<<<<< HEAD
           <li class="nav-item"> <a class="nav-link" href="/Login">Sign In</a></li>
         </ul>
         <ul class="nav flex-column sub-menu">
           <li class="nav-item"> <a class="nav-link" href="/Register">Sign Up</a></li>
+=======
+          <li class="nav-item"> <a class="nav-link" href="/login">Sign In</a></li>
+        </ul>
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="/halaman_register">Sign Up</a></li>
+>>>>>>> 9ce3e591032e95558bbb200cfc709c579dac490b
         </ul>
       </div>
     </li>
