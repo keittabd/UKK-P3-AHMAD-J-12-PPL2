@@ -1,7 +1,10 @@
 <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
   <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+    <div class="navbar-box">
+      <h1 class="navbar-title">JLLY</h1>
+      <!-- add your navbar links here -->
+    </div>
     <a class="navbar-brand brand-logo mr-5" href="http://127.0.0.1:8000/"><img src="images/we.gif" class="mr-2" alt="logo"/>
-      <h1>JLLY</h1>
     </a>
     <a class="navbar-brand brand-logo-mini" href="http://127.0.0.1:8000/"><img src="images/we.gif" alt="logo"/></a>
   </div>

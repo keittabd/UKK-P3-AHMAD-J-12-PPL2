@@ -7,9 +7,11 @@
 </head>
 <body>
   <!-- card -->
-<<<<<<< HEAD
   <div class="card">
     <div class="card__view">
+      <iframe width="500" height="270" src="https://www.youtube.com/embed/x3cB4pwkkLEkP326" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <form action="/video-url" method="GET">
+        @csrf
       <div class="card__view__data">
         <p class="card__view__preview">Preview</p>
         <p class="card__play__icon">
@@ -23,11 +25,11 @@
             </g>
           </svg>
         </p>
-        <p class="card__lenght">10:19</p>
+        <p class="card__lenght">0.53</p>
       </div>
     </div>
     <div class="card__content">
-      <p class="channel__video__name">The Backwards Brain Bicycle - Smarter Every Day 133" by Destin Sandlin</p>
+      <p class="channel__video__name">My neighbor Totoro</p>
       <div class="channel__data">
         <div class="channel__img"></div>
         <div class="channel__data__text">
@@ -40,26 +42,60 @@
       </div>
     </div>
   </div>
+
+  <!-- gamabar -->
+  <article class="card_20">
+    <div class="temporary_text">
+      <img src="/images/cat.jpg" class="card-img-top" alt="cat.jpg">
+    </div>
+<div class="card_content">
+    <span class="card_title">This is a Title</span>
+        <span class="card_subtitle">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>
+        <p class="card_description">Lorem ipsum dolor, sit amet  expedita exercitationem recusandae aut dolor tempora aperiam itaque possimus at, cupiditate earum, quae repudiandae aspernatur? Labore minus soluta consequatur placeat.</p>  
+</div>
+</article>
+<br>
+
+<article class="card_21">
+  <div class="temporary_text">
+      Place image here
+  </div>
+<div class="card_content">
+  <span class="card_title">This is a Title</span>
+      <span class="card_subtitle">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>
+      <p class="card_description">Lorem ipsum dolor, sit amet  expedita exercitationem recusandae aut dolor tempora aperiam itaque possimus at, cupiditate earum, quae repudiandae aspernatur? Labore minus soluta consequatur placeat.</p>
+</div>
+</article>
+<br>
+
+<article class="card_22">
+  <div class="temporary_text">
+      Place image here
+  </div>
+<div class="card_content">
+  <span class="card_title">This is a Title</span>
+      <span class="card_subtitle">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>
+      <p class="card_description">Lorem ipsum dolor, sit amet  expedita exercitationem recusandae aut dolor tempora aperiam itaque possimus at, cupiditate earum, quae repudiandae aspernatur? Labore minus soluta consequatur placeat.</p>
+  
+</div>
+</article>
+<br>
+
+<article class="card_23">
+  <div class="temporary_text">
+      Place image here
+  </div>
+<div class="card_content">
+  <span class="card_title">This is a Title</span>
+      <span class="card_subtitle">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>
+      <p class="card_description">Lorem ipsum dolor, sit amet  expedita exercitationem recusandae aut dolor tempora aperiam itaque possimus at, cupiditate earum, quae repudiandae aspernatur? Labore minus soluta consequatur placeat.</p>
+  
+</div>
+</article>
+  <!-- end gamabar -->
+
   <!-- end card -->
 </div>
-=======
-<div class="card">JLLY-WELLCOME</div>
-<!-- table -->
-<div class="card3">
-  <div class="card3__corner"></div>
-  <div class="card3__img">
-    <span class="card3__span">Category</span>
-  </div>
-  <div class="card3-int">
-    <p class="card3-int__title">This is the article title</p>
-    <p class="excerpt3">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-    <button class="card3-int__button">Show</button>
-  </div>
-</div>
-<!-- end table -->
-<div class="card1">JLLY-WELLCOME</div>
-<!-- card end -->
->>>>>>> 9ce3e591032e95558bbb200cfc709c579dac490b
 </body>
 </html>
 

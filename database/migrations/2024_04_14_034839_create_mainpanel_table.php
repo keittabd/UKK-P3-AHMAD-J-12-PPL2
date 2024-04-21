@@ -11,13 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('user', function (Blueprint $table) {
-            $table->text('Name');
-            $table->id('Username');
-            $table->string('Email')->unique();
-            $table->string('Password');
-            $table->string('Confirm password');
-            $table->text('Address');
+        Schema::create('videos', function (Blueprint $table) {
+            $table->id();
+            $table->string('title');
+            $table->text('description')->nullable();
+            $table->string('video_url');
+            $table->timestamps();
         });
     }
 
@@ -26,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('user');
+        Schema::dropIfExists('mainpanel');
     }
 };

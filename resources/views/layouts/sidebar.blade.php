@@ -6,10 +6,12 @@
         <span class="menu-title">Home</span>
       </a>
     </li>
+    
     <li class="nav-item">
-      <a class="nav-link" href="">
+      <a class="nav-link" href="/Search">
         <img src="images/kky.png" x="0px" y="0px" width="60px" height="60px" alt="Ikon">
         <span class="menu-title">Search</span>
+        <i class="menu-arrow"></i>
       </a>
     </li>
     <li class="nav-item">
@@ -20,23 +22,17 @@
       </a>
       <div class="collapse" id="ui-basic">
         <ul class="nav flex-column sub-menu">
-          <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Post</a></li>
-          <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Account</a></li>
+          <li class="nav-item"> <a class="nav-link" href="/postt">Post</a></li>
+          <li class="nav-item"> <a class="nav-link" href="/Account">Account</a></li>
         </ul>
       </div>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+      <a class="nav-link" href="/Cloud">
         <img src="images/rl.png" x="0px" y="0px" width="60px" height="60px" alt="Ikon">
-        <span class="menu-title">Cloud</span>
+        <span class="menu-title" >Cloud</span>
         <i class="menu-arrow"></i>
       </a>
-      <div class="collapse" id="form-elements">
-        <ul class="nav flex-column sub-menu">
-          <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Add</a></li>
-          <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Drop</a></li>
-        </ul>
-      </div>
     </li>
     <li class="nav-item">
       <a class="nav-link" data-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
@@ -46,19 +42,12 @@
       </a>
       <div class="collapse" id="charts">
         <ul class="nav flex-column sub-menu">
-<<<<<<< HEAD
+          @guest
           <li class="nav-item"> <a class="nav-link" href="/Login">Sign In</a></li>
         </ul>
         <ul class="nav flex-column sub-menu">
           <li class="nav-item"> <a class="nav-link" href="/Register">Sign Up</a></li>
-=======
-          <li class="nav-item"> <a class="nav-link" href="/login">Sign In</a></li>
-        </ul>
-        <ul class="nav flex-column sub-menu">
-          <li class="nav-item"> <a class="nav-link" href="/halaman_register">Sign Up</a></li>
->>>>>>> 9ce3e591032e95558bbb200cfc709c579dac490b
-        </ul>
-      </div>
     </li>
+    @endguest
   </ul>
 </nav>

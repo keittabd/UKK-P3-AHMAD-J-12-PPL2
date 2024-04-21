@@ -30,21 +30,27 @@
 </head>
 <body>
 <div class="container">
-  @if (session('status'))
-  <div class="alert alert-primary" role="alert">
-        {{ session::get('status') }}
-    </div>
-@endif
-    <form class="form" action="{{ route('Register')}}" method="POST">
+    <form class="form" action="{{ url('/Register') }}" method="POST">
       @csrf
         <p class="title">Sign Up</p>
-        <input placeholder="Name" class="input" type="text">
-        <div class="invalid-feedback">Please Choose a name</div>
-        <input placeholder="Username" class="username input" type="text">
-        <input placeholder="Email" class="email input" type="text">
-        <input placeholder="Password" class="password input" type="password" required>
-        <input placeholder="Confirm Password" class="password input" type="password" required>
-        <button class="btn" type="submit" >Registers</button>
+         <!-- menampilkan error-->
+         @if (count($errors) > 0)
+         <div class="alert alert-danger">
+             <ul>
+                 @foreach ($errors->all() as $error)
+                     <li>{{ $error }}</li>
+                 @endforeach
+             </ul>
+         </div>
+         @endif
+
+         <br/>
+        <input placeholder="Name" class="input"name="Name" type="text" value="name">
+        <input placeholder="Username" class="input" name="Username" type="text" value="username">
+        <input placeholder="Email" class="input" name="Email" type="email"required>
+        <input placeholder="Password" class="input" type="password" required>
+        <input placeholder="Password" class="input" type="password" name="password_confirmation" required>
+        <button class="btn" type="submit" name="submit" value="Login">Registers</button>
         <br>
             <div class="acc-text">
               <span style="color : #0000ff; cursor : pointer;"><a class="nav-link" href="/Login">Sign In</a></span>

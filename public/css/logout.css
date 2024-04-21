@@ -16,11 +16,8 @@
   }
   
   .form {
-<<<<<<< HEAD
     width: 400rem;
-=======
     width: 500rem;
->>>>>>> 9ce3e591032e95558bbb200cfc709c579dac490b
     height: 61.8rem;
     background-image: linear-gradient(to bottom, #dceded, #edf6f6);
     display: flex;

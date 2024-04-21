@@ -13401,6 +13401,22 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
 }
 
+/* navbar tambahan */
+
+.navbar-box {
+  border-radius: 43px;
+  border-color: #34ce57;
+}
+
+.navbar-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #627254;
+  font-family: "Luxurious Roman", serif;
+  font-style: normal;
+  
+}
+
 .navbar .container,
 .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
   display: flex;
@@ -28542,7 +28558,7 @@ div.tagsinput span.tag a {
   -moz-osx-font-smoothing: grayscale;
   margin-left: auto;
   margin-right: 0;
-  color: #bcd4e6;
+  color: #c5ebaa;
 }
 
 .rtl .sidebar .nav .nav-item .nav-link i.menu-arrow {
@@ -28594,7 +28610,7 @@ div.tagsinput span.tag a {
 }
 
 .sidebar .nav .nav-item.active > .nav-link {
-  background: #bcd4e6;
+  background: #c5ebaa;
   position: relative;
 }
 
@@ -28641,7 +28657,7 @@ div.tagsinput span.tag a {
 }
 
 .sidebar .nav:not(.sub-menu) > .nav-item.active {
-  background: #4B49AC;
+  background: #c5ebaa;
 }
 
 .sidebar .nav.sub-menu {
@@ -28715,7 +28731,7 @@ div.tagsinput span.tag a {
 }
 
 .sidebar-dark .sidebar .nav .nav-item.active > .nav-link {
-  background: #4B49AC;
+  background: #c5ebaa;
 }
 
 .sidebar-dark .sidebar .nav .nav-item.active > .nav-link .menu-title,
@@ -28724,7 +28740,7 @@ div.tagsinput span.tag a {
 }
 
 .sidebar-dark .sidebar .nav:not(.sub-menu) > .nav-item:hover > .nav-link {
-  background: #4B49AC;
+  background: #c5ebaa;
   color: #fff;
 }
 
@@ -29108,7 +29124,7 @@ div.tagsinput span.tag a {
   width: 12px;
   height: 12px;
   border-radius: 100%;
-  background: #4B49AC;
+  background: #c5ebaa;
   top: 1px;
   border: 1px solid #ffffff;
 }
@@ -29128,7 +29144,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar.navbar-primary .navbar-menu-wrapper {
-  background: #4B49AC;
+  background: #c5ebaa;
 }
 
 .navbar.navbar-primary:not(.navbar-light) .navbar-menu-wrapper .navbar-toggler {
@@ -29215,7 +29231,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #4B49AC;
+  background: #c5ebaa;
 }
 
 .navbar.navbar-secondary .navbar-menu-wrapper {
@@ -29306,7 +29322,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #4B49AC;
+  background: #c5ebaa;
 }
 
 .navbar.navbar-success .navbar-menu-wrapper {
@@ -29397,7 +29413,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #4B49AC;
+  background: #c5ebaa;
 }
 
 .navbar.navbar-info .navbar-menu-wrapper {
@@ -29488,7 +29504,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #4B49AC;
+  background: #c5ebaa;
 }
 
 .navbar.navbar-warning .navbar-menu-wrapper {
@@ -29579,7 +29595,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #4B49AC;
+  background: #c5ebaa;
 }
 
 .navbar.navbar-danger .navbar-menu-wrapper {
@@ -29670,7 +29686,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #4B49AC;
+  background: #c5ebaa;
 }
 
 .navbar.navbar-light .navbar-menu-wrapper {
@@ -29761,7 +29777,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #4B49AC;
+  background: #c5ebaa;
 }
 
 .navbar.navbar-dark .navbar-menu-wrapper {
@@ -29852,7 +29868,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar.navbar-danger .navbar-menu-wrapper .nav-item .nav-link.count-indicator .count {
-  background: #4B49AC;
+  background: #c5ebaa;
 }
 
 @media (max-width: 991px) {
@@ -30025,7 +30041,7 @@ div.tagsinput span.tag a {
     display: flex;
     -webkit-align-items: center;
     align-items: center;
-    background: #4B49AC;
+    background: #c5ebaa;
     padding: 0.5rem 1.4rem;
     left: 70px;
     position: absolute;
@@ -30055,7 +30071,7 @@ div.tagsinput span.tag a {
     display: none;
   }
   .sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link:hover .menu-title {
-    background: #4B49AC;
+    background: #c5ebaa;
   }
   .sidebar-dark.sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link:hover .menu-title {
     background: #232227;
@@ -30289,7 +30305,7 @@ div.tagsinput span.tag a {
 
 .settings-panel .nav-tabs .nav-item .nav-link.active {
   background: transparent;
-  color: #4B49AC;
+  color: #c5ebaa;
 }
 
 .settings-panel .tab-content {
@@ -30480,7 +30496,7 @@ div.tagsinput span.tag a {
   position: absolute;
   top: 16px;
   right: 10px;
-  color: #4B49AC;
+  color: #c5ebaa;
   background: transparent;
   border-radius: 4px;
   padding: 0 3px;
@@ -30553,7 +30569,7 @@ div.tagsinput span.tag a {
   right: 30px;
   height: 45px;
   width: 45px;
-  background: #4B49AC;
+  background: #c5ebaa;
   z-index: 99;
   display: -webkit-flex;
   display: flex;

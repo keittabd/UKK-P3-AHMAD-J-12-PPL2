@@ -18,19 +18,18 @@
   <link rel="stylesheet" href="style1.css">
   <link rel="stylesheet" href="login.css">
   <link rel="stylesheet" href="css/card-css/card.css">
-  <link rel="stylesheet" href="css/card-css/halaman-utama/kotak.css">
-  <link rel="stylesheet" href="css/search.css">
-  <link rel="stylesheet" href="css/gambar.css">
+  <link rel="stylesheet" href="css/post.css">
+  <link rel="stylesheet" href="css/card-css/gambar-card.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
   <link rel="stylesheet" href="css/style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="images/icons8.png" />
   <!-- CSS E-->
+  
   <!-- end CSS-->
   <!-- Font -->
   <style>@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');</style>
-  <style>@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Luxurious+Roman&display=swap');</style>
 </head>
 <body>
   <div class="container-scroller">
@@ -41,11 +40,41 @@
       <!-- partial -->
       <!-- partial:partials/_sidebar.html -->
       @include('layouts.sidebar')
+
       <!-- partial -->
-      @include('layouts.mainpanel')
+      <form class="form">
+        <span class="form-title">Upload your file</span>
+        <p class="form-paragraph">
+            File should be an image
+          </p>
+         <label for="file-input" class="drop-container">
+        <span class="drop-title">Drop files here</span>
+        or
+        <input type="file" accept="image/*" required="" id="file-input">
+      </label>
+      </form>
+
+      <!-- halaman button -->
+      
+<button class="button">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+  </svg>
+  <div class="text">
+    Button
+  </div>
+</button>
+
+<!-- card gambar -->
+
+<!-- end gambar -->
+
+<!-- end post -->
+
       <!-- main-panel ends -->
       @include('layouts.footer')
       <!-- halaman login -->
+      <!-- post -->
     </div>   
     @yield('content')
     <!-- page-body-wrapper ends -->
