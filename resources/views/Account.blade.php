@@ -44,11 +44,11 @@
       <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
         <div class="card_25 p-4"> <div class=" image d-flex flex-column justify-content-center align-items-center"> 
           <button class="btn btn-secondary">
-             <img src="https://i.imgur.com/wvxPV9S.png" height="100" width="100" />
+             <img src="images/acn/account.jfif" height="100" width="100" />
             </button> <span class="name mt-3">Eleanor Pena</span> 
-            <span class="idd">@eleanorpena</span> 
+            <span class="id">@eleanorpena</span> 
             <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
-              <span class="idd1">Oxc4c16a645_b21a</span> 
+              <span class="id">Oxc4c16a645_b21a</span> 
               <span><i class="fa fa-copy"></i></span>
             </div> 
             <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
@@ -68,6 +68,9 @@
              </div>
              </div>
             </div>
+    </div>
+  </div>
+</div>
       <!-- main-panel ends -->
       @include('layouts.footer')
       <!-- halaman login -->

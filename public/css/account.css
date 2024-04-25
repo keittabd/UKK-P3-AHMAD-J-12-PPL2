@@ -8,11 +8,13 @@ body {
 }
 
 .card_25 {
-    width: 350px;
-    background-color: #efefef;
+    width: 150rem;
+    height: fit-content;
+    background-color: #fffafa;
     border: none;
     cursor: pointer;
     transition: all 0.5s;
+    border-radius: 10px;
 }
 
 .image img {

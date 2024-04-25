@@ -19,14 +19,20 @@
         </a>
         <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
           <a class="dropdown-item">
+            <a class="dropdown-item" href="#" id="accountButton">
             <img src="images/acc.png" alt="Account">
             Account
           </a>
-          <a class="dropdown-item">
-            <img src="images/log.png" alt="Logout">
-            Logout
-          </a>
-        </div>
+          <hr>
+          <div class="content">
+          <form action="{{ route('Logout')}}" method="POST">
+            @csrf
+            <button class="dropdown-item" type="submit">
+                <img src="images/log.png" alt="Logout">
+                Logout
+            </button>
+        </form> 
+          </div>
       </li>
     </ul>
     <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">

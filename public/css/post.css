@@ -1,5 +1,4 @@
 .form {
-    background-color: #fff;
     box-shadow: 0 10px 60px rgb(218, 229, 255);
     border: 1px solid rgb(159, 159, 160);
     border-radius: 20px;
@@ -8,11 +7,9 @@
     font-size: 1.125rem;
     max-width: 500rem;
     position: relative;
-    margin-left: 45px;
-    margin-right: auto;
+    left: 40px;
     margin-top: 25px;
-    margin-bottom: auto;
-    position: relative;
+    height: fit-content;
   }
   
   .form-title {
@@ -28,7 +25,7 @@
   }
   
   .drop-container {
-    background-color: #fff;
+    background-color: #ff7777;
     position: relative;
     display: flex;
     gap: 10px;
@@ -90,7 +87,7 @@
   /* post btn */
   .button {
     background-color: #ffffff00;
-    color: #fff;
+    color: #020202;
     width: 8.5em;
     height: 2.9em;
     border: #3654ff 0.2em solid;
@@ -98,10 +95,9 @@
     text-align: right;
     transition: all 0.6s ease;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    right: 29rem;
+    height: fit-content;
+    margin-top: 25rem;
   }
   
   .button:hover {
@@ -123,4 +119,69 @@
   
   .text {
     margin: 0 1.5em
+  }
+
+
+
+  /* card 33 */
+  .card_33 {
+    width: 300px;
+    background: rgb(177, 255, 205);
+    padding: .4em;
+    border-radius: 20px;
+    box-shadow: 0 10px 60px rgb(218, 229, 255);
+    border: 1px solid rgb(159, 159, 160);
+    height: 350px;
+    margin-top: 2rem;
+    margin-bottom: 20px;
+    right: 30rem;
+    position: relative;
+  }
+  
+  .card-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 250px;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+  
+  .category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+  }
+  
+  .category:hover {
+    cursor: pointer;
+  }
+  
+  .heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+  }
+  
+  .heading:hover {
+    cursor: pointer;
+  }
+  
+  .author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+  }
+  
+  .name {
+    font-weight: 600;
+  }
+  
+  .name:hover {
+    cursor: pointer;
   }

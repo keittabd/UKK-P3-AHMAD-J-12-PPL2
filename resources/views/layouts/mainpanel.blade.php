@@ -9,9 +9,10 @@
   <!-- card -->
   <div class="card">
     <div class="card__view">
-      <iframe width="500" height="270" src="https://www.youtube.com/embed/x3cB4pwkkLEkP326" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <form action="/video-url" method="GET">
+      <form action="/videourl" method="GET">
         @csrf
+     <iframe width="500" height="270" src="https://www.youtube.com/embed/7FqHFVmX-WjyhFtT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </form>
       <div class="card__view__data">
         <p class="card__view__preview">Preview</p>
         <p class="card__play__icon">
@@ -46,7 +47,6 @@
   <!-- gamabar -->
   <article class="card_20">
     <div class="temporary_text">
-      <img src="/images/cat.jpg" class="card-img-top" alt="cat.jpg">
     </div>
 <div class="card_content">
     <span class="card_title">This is a Title</span>
@@ -58,7 +58,7 @@
 
 <article class="card_21">
   <div class="temporary_text">
-      Place image here
+     
   </div>
 <div class="card_content">
   <span class="card_title">This is a Title</span>
@@ -70,7 +70,6 @@
 
 <article class="card_22">
   <div class="temporary_text">
-      Place image here
   </div>
 <div class="card_content">
   <span class="card_title">This is a Title</span>
@@ -83,7 +82,6 @@
 
 <article class="card_23">
   <div class="temporary_text">
-      Place image here
   </div>
 <div class="card_content">
   <span class="card_title">This is a Title</span>

@@ -30,11 +30,29 @@
 </head>
 <body>
   <div class="container">
-    <form class="form" action="/Login">
+    <form class="form" action="{{ url('/Login') }}" method="POST">
       @csrf
         <p class="title">Login Form</p>
-        <input placeholder="Username" class="username input" type="text">
-        <input placeholder="Password" class="password input" type="password">
+         <!-- menampilkan error-->
+         @if (count($errors) > 0)
+         <div class="alert alert-danger">
+             <ul>
+                 @foreach ($errors->all() as $error)
+                     <li>{{ $error }}</li>
+                 @endforeach
+             </ul>
+         </div>
+         @endif
+        @if(session()->has('success'))
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+          <strong>YEY BERHASILL</strong> ehe.
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        @endif
+        <input placeholder="Username" class="username input" type="text" name="username" id="username" autofokus required value="{{ old('username')}}">
+        <input placeholder="Password" class="password input" type="password" name="password" id="password" requaired>
         <button class="btn" type="submit">Login</button>
         <br></br>
             <div class="acc-text"><text>New here ?<span style="color : #0000ff; cursor : pointer;"><a class="nav-link" href="/Register">Create Account</a></span>
