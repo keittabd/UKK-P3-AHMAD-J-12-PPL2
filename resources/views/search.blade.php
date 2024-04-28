@@ -71,7 +71,7 @@
           </div>
           <div class="desc">
             <label>Post</label>
-            <span>Add a new file to your library list</span>
+            <span>Add a new file to your files to save and edit</span>
             </div>
         </div>
         <div class="entry">
@@ -83,7 +83,7 @@
           </div>
           <div class="desc">
             <label>Cloud</label>
-            <span>Use your one of your system files to save and edit</span>
+            <span>Use your library post list</span>
             </div>
         </div>
       </div>

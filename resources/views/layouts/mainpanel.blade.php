@@ -49,8 +49,8 @@
     <div class="temporary_text">
     </div>
 <div class="card_content">
-    <span class="card_title">This is a Title</span>
-        <span class="card_subtitle">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>
+    <span class="card_title">The cat return</span>
+        <span class="card_subtitle">cat statuette come to life.</span>
         <p class="card_description">Lorem ipsum dolor, sit amet  expedita exercitationem recusandae aut dolor tempora aperiam itaque possimus at, cupiditate earum, quae repudiandae aspernatur? Labore minus soluta consequatur placeat.</p>  
 </div>
 </article>
@@ -61,8 +61,8 @@
      
   </div>
 <div class="card_content">
-  <span class="card_title">This is a Title</span>
-      <span class="card_subtitle">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>
+  <span class="card_title">Spirit away</span>
+      <span class="card_subtitle">where humans are changed into beasts.</span>
       <p class="card_description">Lorem ipsum dolor, sit amet  expedita exercitationem recusandae aut dolor tempora aperiam itaque possimus at, cupiditate earum, quae repudiandae aspernatur? Labore minus soluta consequatur placeat.</p>
 </div>
 </article>
@@ -72,8 +72,8 @@
   <div class="temporary_text">
   </div>
 <div class="card_content">
-  <span class="card_title">This is a Title</span>
-      <span class="card_subtitle">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>
+  <span class="card_title">Boy guittar</span>
+      <span class="card_subtitle">Boy Band.</span>
       <p class="card_description">Lorem ipsum dolor, sit amet  expedita exercitationem recusandae aut dolor tempora aperiam itaque possimus at, cupiditate earum, quae repudiandae aspernatur? Labore minus soluta consequatur placeat.</p>
   
 </div>
@@ -84,8 +84,8 @@
   <div class="temporary_text">
   </div>
 <div class="card_content">
-  <span class="card_title">This is a Title</span>
-      <span class="card_subtitle">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>
+  <span class="card_title">Whishper of heart</span>
+      <span class="card_subtitle">A love story between a girl who loves reading books</span>
       <p class="card_description">Lorem ipsum dolor, sit amet  expedita exercitationem recusandae aut dolor tempora aperiam itaque possimus at, cupiditate earum, quae repudiandae aspernatur? Labore minus soluta consequatur placeat.</p>
   
 </div>

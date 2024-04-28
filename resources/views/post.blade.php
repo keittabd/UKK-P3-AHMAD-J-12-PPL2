@@ -48,8 +48,9 @@
                 @csrf
                 <span class="form-title">POST</span>
                 <br>
-                <label for="title" id="titleTextarea" name="title">Title</label>
-                <textarea class="form-control" id="title" rows="3" name="title"></textarea>
+                <input type="text" class="form-control" id="username" placeholder="Username">
+                <br>
+                <input class="form-control" id="title" placeholder="Title" name="title"></input>
                 <p class="form-paragraph">
                     Upload your file
                 </p>
@@ -73,19 +74,17 @@
             <hr>
             <!-- card gambar -->
             <div class="card_33">
-                <div class="card-img">
-                    @if (isset($imagePath))
-                        <img src="{{ asset($imagePath) }}" alt="Uploaded Image">
-                    @endif
-                </div>
+                <div class="card-img"></div>
                 <div class="category"> View </div>
-                <div class="heading" name="title" id="titleHeading"> Title
-                    <div class="author"> By <span class="name">Abi</span> 4 days ago</div>
+                <div class="heading" name="title" id="titleHeading"> KIKI'S
+                    <div class="author">@<span class="name">user</span> 4 </div>
+                    <br>
                     <button type="button" class="btn btn-primary btn-sm">Upload</button>
                     <button type="button" class="btn btn-secondary btn-sm">Delete</button>
                 </div>
             </div>
         </div>
+    </div>
 
         <!-- end gambar -->
         <!-- end post -->

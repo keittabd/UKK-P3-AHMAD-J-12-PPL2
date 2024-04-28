@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('komentarfoto', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->string('file')->references('file')->on('posts');
+            $table->text('content');
             $table->timestamps();
         });
     }

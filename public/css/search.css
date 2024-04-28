@@ -89,7 +89,7 @@ p.label {
 }
 
 .results .results-list .entry:hover .icon {
-  background-color: #1763fa;
+  background-color: #F2C18D;
 }
 
 .results .results-list .entry:hover .icon svg path,
@@ -98,11 +98,11 @@ p.label {
 }
 
 .results .results-list .entry:hover label {
-  color: #1763fa;
+  color: #F2C18D;
 }
 
 .results .results-list .entry:hover span {
-  color: #7ba0eb;
+  color: #F6F193;
 }
 
 .results .results-list {

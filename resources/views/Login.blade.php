@@ -55,14 +55,10 @@
         <input placeholder="Password" class="password input" type="password" name="password" id="password" requaired>
         <button class="btn" type="submit">Login</button>
         <br></br>
-            <div class="acc-text"><text>New here ?<span style="color : #0000ff; cursor : pointer;"><a class="nav-link" href="/Register">Create Account</a></span>
+            <div class="acc-text"><text>
+              <span style="color : #fff080; cursor : pointer;"><a class="nav-link" href="/Register">Create Account</a></span>
             </text>
         </div>
-            <br>
-            <div class="acc-text">
-                <span style="color : #0000ff; cursor : pointer;"><a class="nav-link" href="/register">Forget Password</a></span>
-              </div>
-            </br>
     </form>
 </div>
 

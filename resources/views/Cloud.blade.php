@@ -52,8 +52,8 @@
                   <img src="{{ asset($imagePath) }}" alt="Uploaded Image">
               @endif</div>
                 <div class="card-info">
-                    <p class="text-title">title </p>
-                    <p class="text-body">description</p>
+                    <p class="text-title">Kiki's</p>
+                    <p class="text-body">A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.</p>
                 </div>
                 <div class="card-footer">
                     <span class="text-title">477</span>
@@ -70,7 +70,7 @@
               @endif</div>
                 <div class="card-info">
                     <p class="text-title">title </p>
-                    <p class="text-body">description and details</p>
+                    <p class="text-body">A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.</p>
                 </div>
                 <div class="card-footer">
                     <span class="text-title">49</span>
@@ -87,7 +87,7 @@
               @endif</div>
                 <div class="card-info">
                     <p class="text-title">title </p>
-                    <p class="text-body">details</p>
+                    <p class="text-body">A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.s</p>
                 </div>
                 <div class="card-footer">
                     <span class="text-title">4</span>

@@ -11,12 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('account', function (Blueprint $table) {
+        Schema::create('cloud', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('file')->references('file')->on('post');
             $table->string('username');
             $table->foreign('username')->references('username')->on('users');
-            $table->text('deskripsi');
+            $table->text('title')->references('title')->on('post');
+            $table->text('komentar');
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('account');
+        Schema::dropIfExists('cloud');
     }
 };

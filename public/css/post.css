@@ -25,7 +25,7 @@
   }
   
   .drop-container {
-    background-color: #ff7777;
+    background-color: #C4DFDF;
     position: relative;
     display: flex;
     gap: 10px;
@@ -71,7 +71,7 @@
   #file-input::file-selector-button {
     margin-right: 20px;
     border: none;
-    background: #084cdf;
+    background: #C5EBAA;
     padding: 10px 20px;
     border-radius: 10px;
     color: #fff;
@@ -80,7 +80,7 @@
   }
   
   #file-input::file-selector-button:hover {
-    background: #0d45a5;
+    background: #C5EBAA;
   }
 
 
@@ -90,7 +90,7 @@
     color: #020202;
     width: 8.5em;
     height: 2.9em;
-    border: #3654ff 0.2em solid;
+    border: #f3c5ff 0.2em solid;
     border-radius: 11px;
     text-align: right;
     transition: all 0.6s ease;
@@ -126,7 +126,7 @@
   /* card 33 */
   .card_33 {
     width: 300px;
-    background: rgb(177, 255, 205);
+    background: #C4DFDF;
     padding: .4em;
     border-radius: 20px;
     box-shadow: 0 10px 60px rgb(218, 229, 255);
@@ -138,11 +138,15 @@
     position: relative;
   }
   
-  .card-image {
-    background-color: rgb(236, 236, 236);
-    width: 100%;
+  .card-img {
+    background-color: rgb(125, 61, 61);
+    background-image: url('/images/tw.jpg');
+    width: 290px;
     height: 250px;
-    border-radius: 6px 6px 0 0;
+    box-shadow: 0 10px 60px rgb(218, 229, 255);
+    border: 1px solid rgb(159, 159, 160);
+    border-radius: 25%;
+    padding: 2rem .7rem .7rem .7rem;
   }
   
   .card-image:hover {
@@ -153,7 +157,7 @@
     text-transform: uppercase;
     font-size: 0.7em;
     font-weight: 600;
-    color: rgb(63, 121, 230);
+    color: rgb(99, 122, 159);
     padding: 10px 7px 0;
   }
   
