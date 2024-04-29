@@ -64,5 +64,6 @@ Etensions yang di pakai buat membuat projek:
 ## ERD
 ![STRUKTUR DATA](![image](https://github.com/keittabd/UKK-P3-AHMAD-J-12-PPL2/assets/141903287/441b934d-9a1c-4701-9ffa-c07008e38d16)
 )
+![STRUKTUR GAMBAR](/public/images/ERD.png)
 
 
